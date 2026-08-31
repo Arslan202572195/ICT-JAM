@@ -1,0 +1,37 @@
+1. Installed python version 3.13.15
+
+2. Added a project specific python version in Python environments (MS VSI - solution  explorer). The python files folder is now inside the project folder, an isolated environment for project. All components will be installed here.
+
+3. Inside MS VSI, View - terminal. upgrade pip, pip already meets requirements no need for upgrade
+
+4. In the same terminal installed Vader, Pandas, NumPy using command, the terminal downloaded and installed automatically. 
+
+5. The components got installed globally, reinstalled after specifying project path correctly in terminal
+
+6. Created new python environment on drive d, python wasn't accepting long path to install hugging face packages, also low hard disk space
+
+7. Installed and verified Pytorch and Transformers packages
+
+8. Installed and verified fastapi and pandas 
+
+9. Separated main and sentiment analysis py files, connected fast api
+now there is a locally hosted sentiment analysis model that has an api and can be interacted through api.
+
+Python environment = toolbox
+
+Lib\site-packages = tools stored in the toolbox
+
+Scripts = switches and handles used to operate the tools
+
+main.py = instructions for what to build
+
+FastAPI = service desk receiving requests
+
+Transformer = worker performing sentiment analysis
+
+Uvicorn = server that keeps the service desk running
+
+
+
+
+
